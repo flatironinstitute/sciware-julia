@@ -1,8 +1,8 @@
-# How to set up your IJulia kernels for the Intro to Julia Sciware session
+# How to set up your IJulia kernels for the [Intro to Julia Sciware](https://github.com/flatironinstitute/learn-sciware-dev/tree/master/08_Julia) session
 
 ## Step one: get the git repository
 
-The first thing to do is clone the repository containing the notebooks, data, and some ancillary files. I usually keep repos like this in a folder called projects or demos, so for me this would look like:
+The first thing to do is clone this repository containing the notebooks, data, and some ancillary files. I usually keep repos like this in a folder called projects or demos, so for me this would look like:
 
     cd ~/projects
     git clone https://github.com/flatironinstitute/sciware-julia.git
@@ -15,7 +15,7 @@ That should put all the notebooks and such in the sciware-julia folder. Now we a
 
 ## Step two: install Jupyter kernels
 
-What you will need to do depends if you have access to the [Flatiron Institute JupyterHub](https://docs.simonsfoundation.org/index.php/Public:JupyterHub) at jupyter.flatironinstitute.org.
+What you will need to do depends if you have access to the [Flatiron Institute JupyterHub](https://docs.simonsfoundation.org/index.php/Public:JupyterHub) at `jupyter.flatironinstitute.org`.
 
 ### If you do have access to jupyter.flatironinstitute.org:
 
@@ -35,7 +35,7 @@ In this case you''ll need to download your own Julia executable. Go to https://j
 
 Launch Julia (using $HOME/julia/usr/bin/julia, for example) and run:
 
-    ] *(yes, type close square bracket)*
+    ] (yes, type close square bracket)
     add IJulia
     build IJulia
 
