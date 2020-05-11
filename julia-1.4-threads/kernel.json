@@ -12,7 +12,7 @@
   "language": "julia",
   "env": {"PATH": "/cm/shared/apps/slurm/18.08.8/sbin:/cm/shared/apps/slurm/18.08.8/bin:/cm/shared/sw/pkg/devel/cmake/3.14.5/bin:/cm/shared/sw/pkg/devel/gcc/9.2.0/bin:/mnt/home/khyatt/software/texlive2018/2018/bin/x86_64-linux:/cm/local/apps/environment-modules/4.2.1//bin:/opt/lenovo/onecli:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/dell/srvadmin/bin:/opt/dell/srvadmin/iSM/bin",
           "LD_LIBRARY_PATH": "/cm/shared/apps/slurm/18.08.8/lib64/slurm:/cm/shared/apps/slurm/18.08.8/lib64:/cm/shared/sw/pkg/devel/gcc/9.2.0/lib::/cm/shared/sw/pkg/devel/cuda/10.1.105_418.39/lib64:/mnt/home/khyatt/software/nccl_2.5.6-1+cuda10.2_x86_64/lib:/mnt/home/khyatt/projects/cutensor-1.0/lib/10.1:/mnt/home/khyatt/software/cublasmg/cudalibmg/lib:/mnt/home/khyatt/software/cublasmg/cublasmg/lib",
-          "JULIA_DEPOT_PATH": "/mnt/home/khyatt/.julia",
+          "JULIA_DEPOT_PATH": ":/mnt/home/khyatt/.julia",
           "JULIA_NUM_THREADS": "4"
   },
   "interrupt_mode": "signal"
